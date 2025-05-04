@@ -96,6 +96,9 @@ router.delete('/Delete_Author/:id', async (req, res) => {
   }
 });
 
+router.get('/u', (req, res) => {
+    res.send("hello");
+})
 
 
 module.exports = router;
